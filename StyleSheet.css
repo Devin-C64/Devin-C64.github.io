@@ -14,5 +14,11 @@ body {
 }
 
 div.link{
-    background-color: #6f6059;
+    background-color: #c8a494;
+    margin-top: 50px;
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
 }
