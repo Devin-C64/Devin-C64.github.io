@@ -1,5 +1,8 @@
-h1 {
+* {
     text-align: center;
+}
+
+h1 {
     font-size: 1em;
     color: #009;
     margin-bottom: .3em;
