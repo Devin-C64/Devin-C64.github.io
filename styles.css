@@ -41,4 +41,26 @@ a {
     background-color: #04AA6D;
     color: white;
   }
+
+  .footer {  
+        position: fixed;  
+        left: 0px;  
+        bottom: 0px;  
+        right: 0px;   
+        width: 100%;  
+        background-color: gray;  
+        color: white;  
+        text-align: center;  
+    } 
+
+    .footer-button {   
+        height: 5%;   
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+         transition: transform .7s ease-in-out;
+        margin-left:10px;
+    } 
   
