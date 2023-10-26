@@ -36,22 +36,43 @@
 <form id="contact-form">
     <input type="hidden" name="contact_number">
 
-    <label>Last Name</label>
-    <input type="text" name="user_lname" required/>
+    <div class="inputs">
+        <label>Last Name</label>
+        <div>
+            <input type="text" name="user_lname" placeholder="Last Name" required/>
+        </div>
+    </div>
 
-    <label>First Name</label>
-    <input type="text" name="user_fname" required/>
+    <div class="inputs">
+        <label>First Name</label>
+        <div>
+            <input type="text" name="user_fname" placeholder="First Name" required/>
+        </div>
+    </div>
+    
+    <div class="inputs">
+        <label>Email</label>
+        <div>
+            <input type="email" name="user_email" placeholder="example@gmail.com" required/>
+        </div>  
+    </div>
+    
+    <div class="inputs">
+        <label>Phone Number</label>
+        <div>
+            <input type="text" name="user_phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+        </div>
+    </div>
+    
+    <div class="inputs">
+        <label>Message</label>
+        <div>
+            <textarea name="user_message" placeholder="Write a message for me!" required></textarea>
+        </div>
+    </div>
+    
 
-    <label>Email</label>
-    <input type="email" name="user_email" required/>
-
-    <label>Phone Number (###-###-####)</label>
-    <input type="text" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
-
-    <label>Message</label>
-    <textarea name="user_message" required></textarea>
-
-    <input type="submit" value="Send">
+    <input class="inputs" type="submit" value="Send">
 </form>
 </body>
 </html> 

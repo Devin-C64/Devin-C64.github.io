@@ -19,11 +19,32 @@ img {
         padding: 8px;
         border: 1px solid #ccc;
         box-shadow: 10px 10px 10px #999;
+        max-width: 30%; 
+        height: auto;
 }
 
 a {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+li {
+    font-weight:lighter;
+    text-align: left;
+}
+
+label {
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 20%;
+}
+
+textarea {
+    width: 20%;
 }
 
 .link {
@@ -67,6 +88,35 @@ a {
         appearance: none;
         background-color: inherit;
          transition: transform .7s ease-in-out;
-        margin-left:10px;
+        margin-left: 10px;
     } 
+
+    .email {
+        position: left;
+        font-size: 20px;
+
+        color: rgb(56, 122, 88);
+    }
+
+    .container {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+      }
+
+    .main-text {
+        font-size: 20px;
+        color: rgb(56, 122, 88);
+      }
+
+    .text-box{
+        border-width: 10px;
+        border-style: solid;
+        border-color:rgb(56, 122, 88);
+    }
+
+    .inputs{
+        margin-top: 20px;
+    }
   
