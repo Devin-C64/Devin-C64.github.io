@@ -21,6 +21,7 @@ img {
         box-shadow: 10px 10px 10px #999;
         max-width: 50%; 
         height: auto;
+        margin-bottom:10px;
 }
 
 a {
@@ -131,4 +132,13 @@ textarea {
     .inputs{
         margin-top: 20px;
     }
+
+    .picture-labels{
+        margin-top:20px; 
+        margin-bottom:20px; 
+        margin-left:20%; 
+        margin-right:20%;
+        font-weight: bold;
+    }
+
   
