@@ -19,7 +19,7 @@ img {
         padding: 8px;
         border: 1px solid #ccc;
         box-shadow: 10px 10px 10px #999;
-        max-width: 30%; 
+        max-width: 50%; 
         height: auto;
 }
 
@@ -91,24 +91,36 @@ textarea {
         margin-left: 10px;
     } 
 
-    .email {
-        position: left;
-        font-size: 20px;
-
-        color: rgb(56, 122, 88);
-    }
-
     .container {
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 5px;
+        column-gap: 20px;
+      }
+
+      .container-pictures {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
       }
 
     .main-text {
         font-size: 20px;
         color: rgb(56, 122, 88);
+        text-align: left;
+        margin-bottom: 10px;
       }
+    
+    .left-picture {
+        display: block;
+        margin-left: auto;
+    }
+
+    .right-picture {
+        display: block;
+        margin-right: auto;
+    }
 
     .text-box{
         border-width: 10px;
